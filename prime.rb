@@ -1,9 +1,11 @@
 def prime?(n)
-  for d in (n..n -1)
-  if n % d != 0
-    return true 
-  else false 
+  for d in 2..(n - 1)
+   if (n % d) == 0
+    return false
+   end
   end
-end 
+
+  true
+ end
 
 end
