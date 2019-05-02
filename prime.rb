@@ -1,3 +1,3 @@
 def prime?(n)
-  for 
+  for d in n(2.)
 end
