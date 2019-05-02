@@ -1,6 +1,6 @@
 def prime?(n)
-  if n > 0 
-    one_under = n-1
+  if n < 0 
+      return false
   else
     one_under = n+1
   end
