@@ -1,3 +1,3 @@
-def prime?(x)
-  integer_array = (x..y)
+def prime?(n)
+  
 end
